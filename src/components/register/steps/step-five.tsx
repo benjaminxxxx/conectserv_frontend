@@ -31,7 +31,7 @@ export function StepFive() {
     try {
       setIsSubmitting(true)
 
-      // Aquí iría la llamada a la API para crear el usuario
+      /*
       const formDataToSend = new FormData()
       Object.entries(formData).forEach(([key, value]) => {
         formDataToSend.append(key, value)
@@ -40,10 +40,7 @@ export function StepFive() {
       formDataToSend.append("backId", values.backId)
       formDataToSend.append("selfie", values.selfie)
 
-      // const response = await fetch('https://conectserv.perudevsolutions.com/api/register', {
-      //   method: 'POST',
-      //   body: formDataToSend,
-      // })
+      */
 
       reset() // Limpia el estado
       router.push("/register/success") // Redirige a página de éxito

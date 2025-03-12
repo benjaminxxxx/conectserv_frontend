@@ -17,6 +17,7 @@ interface RegisterState {
     backId?: File
     selfie?: File
     otp?: string
+    isWhatsappVerified?: boolean // Añadida esta propiedad
   }
   setStep: (step: number) => void
   setFormData: (data: Partial<RegisterState["formData"]>) => void
